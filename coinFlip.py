@@ -13,7 +13,7 @@ for i in range(runs):
             flips.append('H')
         else:
             flips.append('T')
-            
+
     # check for streaks of consecutive flips
     current_streak = 0
     previous_flip = None
